@@ -1,0 +1,65 @@
+body {
+  background-color: bisque;
+}
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    fantasy;
+  font-size: 100px;
+  border-bottom: 20px, solid black;
+}
+
+.movieBox {
+  border: 1px solid grey;
+  border-color: black;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  flex-basis: auto;
+  width: 500px;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0 0 10px 5px gray;
+  background-color: #FFFFFF;
+}
+
+
+
+
+
+.boxContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 50px 30px;
+}
+
+.moviePoster {
+  width: 500px;
+  height: 750px;
+  cursor: pointer;
+  position: relative;
+  visibility: visible;
+}
+
+
+
+.trailer {
+  position: absolute;
+  visibility: hidden;
+  width: 500px;
+  margin-top: 200px;
+}
+
+
+
+h3,
+p {
+  display: inline;
+}
+
+br {
+  line-height: 800%;
+}
