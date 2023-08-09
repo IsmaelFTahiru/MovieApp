@@ -1,6 +1,7 @@
 body {
   background-color: bisque;
 }
+
 h1 {
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
@@ -9,7 +10,15 @@ h1 {
   border-bottom: 20px, solid black;
 }
 
-.movieBox {
+h3 {
+  display: inline;
+}
+
+br {
+  line-height: 800%;
+}
+
+.movie-box {
   border: 1px solid grey;
   border-color: black;
   font-size: 20px;
@@ -19,16 +28,12 @@ h1 {
   background-color: white;
   padding: 50px;
   box-shadow: 0 0 10px 5px gray;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-
-
-
-
-.boxContainer {
-  position: relative;
+.box-container {
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -36,7 +41,7 @@ h1 {
   gap: 50px 30px;
 }
 
-.moviePoster {
+.movie-poster {
   width: 500px;
   height: 750px;
   cursor: pointer;
@@ -44,22 +49,9 @@ h1 {
   visibility: visible;
 }
 
-
-
 .trailer {
   position: absolute;
   visibility: hidden;
   width: 500px;
   margin-top: 200px;
-}
-
-
-
-h3,
-p {
-  display: inline;
-}
-
-br {
-  line-height: 800%;
 }
