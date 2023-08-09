@@ -4,14 +4,13 @@ body {
 
 h1 {
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
     fantasy;
   font-size: 100px;
   border-bottom: 20px, solid black;
 }
 
-h3,
-p {
+h3 {
   display: inline;
 }
 
@@ -19,11 +18,11 @@ br {
   line-height: 800%;
 }
 
-.movieBox {
+.movie-box {
   border: 1px solid grey;
   border-color: black;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   flex-basis: auto;
   width: 500px;
   background-color: white;
@@ -32,9 +31,9 @@ br {
   background-color: #ffffff;
 }
 
-.boxContainer {
-  position: relative;
+.box-container {
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -42,7 +41,7 @@ br {
   gap: 50px 30px;
 }
 
-.moviePoster {
+.movie-poster {
   width: 500px;
   height: 750px;
   cursor: pointer;
