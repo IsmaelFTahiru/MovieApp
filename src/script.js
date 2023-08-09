@@ -68,12 +68,6 @@ const renderMovieData = () => {
 
     paragraphBlock.className = 'movie-box';
     paragraphBlock.innerHTML = `
-      <video
-        class='trailer'
-        id='trailer'
-        controls
-        type='video/webm'
-      ></video>
       <img 
         class='movie-poster' 
         src=${movie.pictureUrl} 
